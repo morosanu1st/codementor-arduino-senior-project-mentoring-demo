@@ -1,0 +1,7 @@
+# Wokwi for VS Code configuration.
+# 1) Run `make compile` (creates build/out/main.ino.hex)
+# 2) In VS Code with the Wokwi extension: F1 -> "Wokwi: Start Simulator"
+[wokwi]
+version = 1
+firmware = "build/out/main.ino.hex"
+elf = "build/out/main.ino.elf"
